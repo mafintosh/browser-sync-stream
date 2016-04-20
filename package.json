@@ -1,6 +1,6 @@
 {
   "name": "browser-sync-stream",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Rsync between a server and the browser.",
   "main": "server.js",
   "dependencies": {
