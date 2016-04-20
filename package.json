@@ -1,0 +1,23 @@
+{
+  "name": "browser-sync-stream",
+  "version": "0.0.0",
+  "description": "Rsync between a server and the browser.",
+  "main": "server.js",
+  "dependencies": {
+    "duplexify": "^3.4.3",
+    "length-prefixed-stream": "^1.5.0",
+    "rabin": "^1.4.0"
+  },
+  "devDependencies": {},
+  "browser": "./browser.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mafintosh/browser-sync-stream.git"
+  },
+  "author": "Mathias Buus (@mafintosh)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mafintosh/browser-sync-stream/issues"
+  },
+  "homepage": "https://github.com/mafintosh/browser-sync-stream"
+}
