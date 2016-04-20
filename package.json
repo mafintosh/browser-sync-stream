@@ -8,7 +8,12 @@
     "length-prefixed-stream": "^1.5.0",
     "rabin": "^1.4.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "standard": "^6.0.8"
+  },
+  "scripts": {
+    "test": "standard"
+  },
   "browser": "./browser.js",
   "repository": {
     "type": "git",

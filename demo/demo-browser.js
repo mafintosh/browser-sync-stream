@@ -6,6 +6,7 @@ var db = level('sync.db')
 var downloaded = 0
 
 var stream = receive(db, function (err, data) {
+  if (err) throw err
   console.log('downloaded buffer:', data.length, '(transferred ' + downloaded + ' bytes)')
 })
 
